@@ -1,4 +1,4 @@
-# nom-tracable
+# nom-both
 Extension of [nom](https://github.com/Geal/nom) to provide special `both_` parsers.
 
 [![Build Status](https://dev.azure.com/dalance/nom-both/_apis/build/status/dalance.nom-both?branchName=master)](https://dev.azure.com/dalance/nom-both/_build/latest?definitionId=1&branchName=master)
@@ -57,7 +57,7 @@ fn test() {
 }
 ```
 
-For example, `both_opt_parser` is expanded as below:
+`both_opt_parser` is expanded as below:
 
 ```rust
 pub fn both_opt_parser(s: &str) -> IResult<&str, Option<&str>> {
