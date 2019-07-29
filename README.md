@@ -14,7 +14,7 @@ nom-both can be applied to function-style parser only.
 
 ```Cargo.toml
 [dependencies]
-nom-both = "0.1.0"
+nom-both = "0.1.1"
 ```
 
 ## Example
